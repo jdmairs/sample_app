@@ -12,6 +12,9 @@ end
 
 group :test do
 	gem 'capybara', '1.1.2'
+	gem 'guard-spork','0.3.2'
+	gem 'spork', :github => 'sporkrb/spork'
+	gem 'spork-rails', :github => 'sporkrb/spork-rails'
 end
 
 group :production do
